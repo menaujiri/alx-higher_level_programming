@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-for i in range(ord('a'), ord('z') + 1):
-    if chr(i) != 'e' and chr(i) != 'q':
-        print('{:c}'.format(i), end='')
+for char in (c for c in map(chr, range(ord('a'), ord('z') + 1)) if c not in 'qe'):
+    print(char, end='')
