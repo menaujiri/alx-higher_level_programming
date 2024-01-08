@@ -8,7 +8,3 @@ print(new_tuple)
 
 print(add_tuple(tuple_a, (1, )))
 print(add_tuple(tuple_a, ()))
-
-print_matrix_integer(matrix)
-print("--")
-print_matrix_integer()
